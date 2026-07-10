@@ -1,0 +1,13 @@
+{
+  "name": "belladonna-os-standalone",
+  "version": "1.0.0-alpha",
+  "private": true,
+  "description": "Standalone Torn PDA intelligence and operations suite.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "check": "node --check dist/Belladonna-OS.user.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
